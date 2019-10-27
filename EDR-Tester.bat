@@ -223,6 +223,8 @@ whoami
 ECHO ============================
 ipconfig /all >> %temp%\download
 ECHO ============================
+nbtstat -n
+ECHO ============================
 net view  \\127.0.0.1
 ECHO ============================
 hostname
