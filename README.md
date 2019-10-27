@@ -53,3 +53,5 @@ https://attack.mitre.org/techniques/T1059/
 https://www.carbonblack.com/2018/08/27/threat-analysis-recent-attack-technique-leveraging-cmd-exe-and-powershell-demonstrates-how-attackers-are-using-trusted-microsoft-applications-for-malicious-behavior/
 
 https://blog.huntresslabs.com/attackers-abuse-trust-with-indirection-e8addc1ba8f
+
+https://github.com/AhmetHan/EDR_Tester/blob/master/README.md
