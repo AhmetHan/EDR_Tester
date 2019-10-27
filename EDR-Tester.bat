@@ -213,6 +213,8 @@ net user
 ECHO ============================
 net user admin /delete
 ECHO ============================
+ipconfig /all
+ECHO ============================
 whoami
 ECHO ============================
 nltest /dclist:abc.local
