@@ -44,6 +44,8 @@ https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage
 
 https://attack.mitre.org/groups/
 
+https://www.slideshare.net/HuyKha2/different-ttps-on-attacking-active-directory-170540818
+
 https://www.symantec.com/blogs/threat-intelligence/wmic-download-malware
 
 https://attack.mitre.org/techniques/T1059/
