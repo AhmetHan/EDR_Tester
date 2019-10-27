@@ -184,6 +184,8 @@ ECHO ============================
 ECHO ============================
 psexec -s -i -d regedit
 ECHO ============================
+"powershell.exe" get-process | where {$_.Description -like "*$windefend*"}
+ECHO ============================
 dir /s
 ECHO ============================
 dir /ah
