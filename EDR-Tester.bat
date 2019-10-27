@@ -217,6 +217,8 @@ ipconfig /all
 ECHO ============================
 whoami
 ECHO ============================
+net view  \\127.0.0.1
+ECHO ============================
 nslookup bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
 tracert -d bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
