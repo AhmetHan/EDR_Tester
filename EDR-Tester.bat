@@ -48,6 +48,8 @@ NET STOP Spooler
 ECHO ============================
 net time
 ECHO ============================
+NET START Spooler
+ECHO ============================
 net config Workstation
 ECHO ============================
 net statistics Workstation
