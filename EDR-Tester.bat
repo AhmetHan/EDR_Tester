@@ -56,6 +56,8 @@ net accounts /domain
 ECHO ============================
 net view
 ECHO ============================
+net stop windefend
+ECHO ============================
 ver
 ECHO ============================
 assoc
