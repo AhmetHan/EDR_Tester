@@ -1,4 +1,5 @@
 Test with this script your proxy, EDR and NGFW detection capabilities.
+Below domain is legitimate domain you can put any domain like or file.
 
 Invoke-WebRequest http://www.pdf995.com/samples/pdf.pdf -UserAgent $userAgent
 $down = New-Object System.Net.WebClient
