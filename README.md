@@ -37,3 +37,5 @@ https://www.tenforums.com/tutorials/16588-clear-all-event-logs-event-viewer-wind
 https://blog.netspi.com/10-evil-user-tricks-for-bypassing-anti-virus/
 
 http://petprog.blogspot.com/2012/08/a-canonical-list-of-windows-service.html
+
+https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions
