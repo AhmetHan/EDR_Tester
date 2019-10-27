@@ -219,7 +219,7 @@ whoami
 ECHO ============================
 nslookup bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
-nslookup bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
+tracert -d bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
 nltest /dclist:abc.local
 ECHO ============================
