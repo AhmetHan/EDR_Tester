@@ -233,6 +233,8 @@ hostname
 ECHO ============================
 net group "REDACTED" /domain
 ECHO ============================
+net group “Exchange Trusted Subsystem” /domain
+ECHO ============================
 netsh interface show
 ECHO ============================
 getmac
