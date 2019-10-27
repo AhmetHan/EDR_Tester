@@ -174,6 +174,8 @@ taskkill /F /IM iexplore.exe
 ECHO ============================
 taskkill /F /IM calc.exe
 ECHO ============================
+taskkill /f /pid 8888
+ECHO ============================
 dir /s
 ECHO ============================
 dir /ah
