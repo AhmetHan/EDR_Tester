@@ -156,6 +156,8 @@ wmic process call create "cmd.exe /C calc.exe"
 ECHO ============================
 wmic /NAMESPACE:\\root\directory\ldap PATH ds_group where "ds_samaccountname='Domain Admins'" Get ds_member /Value
 ECHO ============================
+wmic computersystem get "Model","Manufacturer", "Name", "UserName"
+ECHO ============================
 route print
 ECHO ============================
 query session
