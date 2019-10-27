@@ -39,3 +39,15 @@ https://blog.netspi.com/10-evil-user-tricks-for-bypassing-anti-virus/
 http://petprog.blogspot.com/2012/08/a-canonical-list-of-windows-service.html
 
 https://www.gartner.com/reviews/market/endpoint-detection-and-response-solutions
+
+https://www.symantec.com/blogs/threat-intelligence/elfin-apt33-espionage
+
+https://attack.mitre.org/groups/
+
+https://www.symantec.com/blogs/threat-intelligence/wmic-download-malware
+
+https://attack.mitre.org/techniques/T1059/
+
+https://www.carbonblack.com/2018/08/27/threat-analysis-recent-attack-technique-leveraging-cmd-exe-and-powershell-demonstrates-how-attackers-are-using-trusted-microsoft-applications-for-malicious-behavior/
+
+https://blog.huntresslabs.com/attackers-abuse-trust-with-indirection-e8addc1ba8f
