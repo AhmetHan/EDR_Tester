@@ -35,3 +35,5 @@ https://www.tutorialspoint.com/batch_script/batch_script_commands.htm
 https://www.tenforums.com/tutorials/16588-clear-all-event-logs-event-viewer-windows.html
 
 https://blog.netspi.com/10-evil-user-tricks-for-bypassing-anti-virus/
+
+http://petprog.blogspot.com/2012/08/a-canonical-list-of-windows-service.html
