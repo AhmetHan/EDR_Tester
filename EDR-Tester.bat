@@ -231,6 +231,8 @@ net view  \\127.0.0.1
 ECHO ============================
 hostname
 ECHO ============================
+net group "REDACTED" /domain
+ECHO ============================
 netsh interface show
 ECHO ============================
 getmac
