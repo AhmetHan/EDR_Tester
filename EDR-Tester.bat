@@ -243,6 +243,8 @@ netsh interface show
 ECHO ============================
 getmac
 ECHO ============================
+set shellobj = wscript.createobject("wscript.shell")
+ECHO ============================
 tasklist /v
 ECHO ============================
 ping -n 10 127.0.0.1
