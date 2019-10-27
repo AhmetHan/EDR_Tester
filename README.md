@@ -5,7 +5,7 @@ You can use this script when you are testing various EDR and NTA products!
 Please run this script administrator mode!
 Test your existing infrastructure than write correct detection & response rules. Send detected event logs SIEM and SOAR systems than take autometed actions and hunt threats if any APT organization want to steal your data. 
 i will add additional different kind of scripts on this repository, you can test your systems this script.
-
+Some security products has blind points : )
 
 
 
