@@ -4,7 +4,7 @@ Please wait..until EDR Testing Script finish it's Jobs, Than You should check yo
 You can use this script when you are testing various EDR and NTA products!
 Please run this script administrator mode!
 Test your existing infrastructure than write correct detection & response rules. Send detected event logs SIEM and SOAR systems than take autometed actions and hunt threats if any APT organization want to steal your data. 
-i will add additional different kind of scripts this repository, you can test your systems this script.
+i will add additional different kind of scripts on this repository, you can test your systems this script.
 
 
 
@@ -14,10 +14,14 @@ i will add additional different kind of scripts this repository, you can test yo
 
 
 
-References:
+#References:
 
 https://blogs.jpcert.or.jp/en/2016/01/windows-commands-abused-by-attackers.html
 https://github.com/op7ic/EDR-Testing-Script
 https://github.com/api0cradle/LOLBAS/tree/master/OSBinaries
 https://lolbas-project.github.io/
 https://atomicredteam.io/
+https://attack.mitre.org/
+https://infosecarsenal.blogspot.com/
+https://www.tutorialspoint.com/batch_script/batch_script_commands.htm
+https://www.tenforums.com/tutorials/16588-clear-all-event-logs-event-viewer-windows.html
