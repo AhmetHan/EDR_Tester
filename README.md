@@ -1,5 +1,5 @@
 # EDR_Tester
-This batch file wants to check your EDR systems detection and response capabilities more noisy way!
+This batch script file wants to check your EDR systems detection and response capabilities more noisy way!
 Please wait..until EDR Testing Script finish it's Jobs, Than You should check your existing or future EDR log events!
 You can use this script when you are testing various EDR and NTA products!
 Please run this script administrator mode!
