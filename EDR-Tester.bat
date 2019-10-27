@@ -176,6 +176,8 @@ taskkill /F /IM calc.exe
 ECHO ============================
 taskkill /f /pid 8888
 ECHO ============================
+psexec -s -i -d regedit
+ECHO ============================
 dir /s
 ECHO ============================
 dir /ah
