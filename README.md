@@ -15,4 +15,9 @@ i will add additional different kind of scripts this repository, you can test yo
 
 
 References:
+
 https://blogs.jpcert.or.jp/en/2016/01/windows-commands-abused-by-attackers.html
+https://github.com/op7ic/EDR-Testing-Script
+https://github.com/api0cradle/LOLBAS/tree/master/OSBinaries
+https://lolbas-project.github.io/
+https://atomicredteam.io/
