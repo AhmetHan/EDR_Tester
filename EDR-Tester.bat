@@ -231,6 +231,8 @@ net view  \\127.0.0.1
 ECHO ============================
 hostname
 ECHO ============================
+getmac
+ECHO ============================
 ping -n 10 127.0.0.1
 ECHO ============================
 nslookup bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
