@@ -186,6 +186,8 @@ psexec -s -i -d regedit
 ECHO ============================
 "powershell.exe" get-process | where {$_.Description -like "*$windefend*"}
 ECHO ============================
+certutil.exe -urlcache -split -f http://7-zip.org/a/7z1604-x64.exe 7zip.exe
+ECHO ============================
 dir /s
 ECHO ============================
 dir /ah
