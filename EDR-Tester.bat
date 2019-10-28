@@ -229,6 +229,8 @@ whoami
 ECHO ============================
 ipconfig /all >> %temp%\download
 ECHO ============================
+date /T & time /T
+ECHO ============================
 nbtstat -n
 ECHO ============================
 nbtstat -s
