@@ -251,6 +251,8 @@ set shellobj = wscript.createobject("wscript.shell")
 ECHO ============================
 tasklist /v
 ECHO ============================
+ECHO  %date%-%time%
+ECHO ============================
 svchost.exe -k DcomLaunch
 ECHO ============================
 svchost.exe -k netsvcs
