@@ -57,3 +57,5 @@ https://blog.huntresslabs.com/attackers-abuse-trust-with-indirection-e8addc1ba8f
 https://github.com/AhmetHan/EDR_Tester/blob/master/README.md
 
 https://ired.team/offensive-security-experiments/offensive-security-cheetsheets
+
+https://www.windowscentral.com/how-create-and-run-batch-file-windows-10
