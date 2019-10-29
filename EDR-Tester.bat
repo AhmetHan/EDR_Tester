@@ -259,6 +259,8 @@ ECHO  %date%-%time%
 ECHO ============================
 vssadmin delete shadows /For=C: /oldest
 ECHO ============================
+vssadmin delete shadows /all
+ECHO ============================
 svchost.exe -k DcomLaunch
 ECHO ============================
 svchost.exe -k netsvcs
