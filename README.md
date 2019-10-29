@@ -55,3 +55,5 @@ https://www.carbonblack.com/2018/08/27/threat-analysis-recent-attack-technique-l
 https://blog.huntresslabs.com/attackers-abuse-trust-with-indirection-e8addc1ba8f
 
 https://github.com/AhmetHan/EDR_Tester/blob/master/README.md
+
+https://ired.team/offensive-security-experiments/offensive-security-cheetsheets
