@@ -237,6 +237,8 @@ netstat -ano
 ECHO ============================
 netstat -ano | findstr "ESTABLISHED"
 ECHO ============================
+netsh firewall set opmode disable
+ECHO ============================
 driverquery
 ECHO ============================
 net user
