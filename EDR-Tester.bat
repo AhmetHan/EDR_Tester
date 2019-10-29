@@ -247,6 +247,8 @@ ipconfig /all
 ECHO ============================
 whoami
 ECHO ============================
+sc query state=all
+ECHO ============================
 ipconfig /all >> %temp%\download
 ECHO ============================
 date /T & time /T
