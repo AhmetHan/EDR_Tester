@@ -26,6 +26,8 @@ ipconfig | findstr /R /C:"IP.*"
 ECHO ============================
 net user Administrator /domain
 ECHO ============================
+echo %USERNAME%
+ECHO ============================
 net Accounts 
 ECHO ============================
 net localgroup administrators
