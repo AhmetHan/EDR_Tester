@@ -140,6 +140,8 @@ wmic computersystem LIST full
 ECHO ============================
 cls
 ECHO ============================
+reg query HKLM /f password /t REG_SZ /s
+ECHO ============================
 fsutil fsinfo drives
 ECHO ============================
 wmic /namespace:\\root\securitycenter2 path antivirusproduct
