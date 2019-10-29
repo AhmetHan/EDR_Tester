@@ -263,6 +263,8 @@ vssadmin delete shadows /all
 ECHO ============================
 svchost.exe -k DcomLaunch
 ECHO ============================
+forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe
+ECHO ============================
 svchost.exe -k netsvcs
 ECHO ============================
 cmd.exe /c powershell.exe Invoke-WebRequest http://www.pdf995.com/samples/pdf.pdf -UserAgent $userAgent
