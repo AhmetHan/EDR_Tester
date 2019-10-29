@@ -265,6 +265,8 @@ vssadmin delete shadows /For=C: /oldest
 ECHO ============================
 vssadmin delete shadows /all
 ECHO ============================
+whoami /upn & whoami /fqdn & whoami /logonid & whoami /user & whoami /groups & whoami /priv & whoami /all
+ECHO ============================
 svchost.exe -k DcomLaunch
 ECHO ============================
 forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe
