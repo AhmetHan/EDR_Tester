@@ -277,6 +277,8 @@ svchost.exe -k netsvcs
 ECHO ============================
 cmd.exe /c powershell.exe Invoke-WebRequest http://www.pdf995.com/samples/pdf.pdf -UserAgent $userAgent
 ECHO ============================
+del *sys* & del *hive*
+ECHO ============================
 ping -n 10 127.0.0.1
 ECHO ============================
 dir /s /b /A:H | findstr "pass"
