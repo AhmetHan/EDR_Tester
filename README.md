@@ -59,3 +59,5 @@ https://github.com/AhmetHan/EDR_Tester/blob/master/README.md
 https://ired.team/offensive-security-experiments/offensive-security-cheetsheets
 
 https://www.windowscentral.com/how-create-and-run-batch-file-windows-10
+
+https://github.com/jlawhon/RedTeamFieldManualScripts
