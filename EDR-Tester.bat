@@ -76,6 +76,8 @@ net user admin /active:yes /domain
 ECHO ============================
 ver
 ECHO ============================
+tree /F /A
+ECHO ============================
 assoc
 ECHO ============================
 assoc | findstr ".xml"
