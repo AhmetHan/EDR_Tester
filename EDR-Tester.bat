@@ -275,6 +275,8 @@ set shellobj = wscript.createobject("wscript.shell")
 ECHO ============================
 tasklist /v
 ECHO ============================
+netstat -an | findstr LISTENING
+ECHO ============================
 netsh wlan export profile folder=. key=clear
 ECHO ============================
 ECHO  %date%-%time%
