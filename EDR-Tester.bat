@@ -180,7 +180,7 @@ systeminfo
 ECHO ============================
 qwinsta
 ECHO ============================
-ipconfig /displaydns
+ipconfig /displaydns & ipconfig /flushdns
 ECHO ============================
 quser
 ECHO ============================
