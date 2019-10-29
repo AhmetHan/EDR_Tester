@@ -265,6 +265,8 @@ svchost.exe -k DcomLaunch
 ECHO ============================
 forfiles /p c:\windows\system32 /m notepad.exe /c calc.exe
 ECHO ============================
+forfiles /S /P C:\ /m *.sys /d -10 /c "cmd /c echo @PATH"
+ECHO ============================
 svchost.exe -k netsvcs
 ECHO ============================
 cmd.exe /c powershell.exe Invoke-WebRequest http://www.pdf995.com/samples/pdf.pdf -UserAgent $userAgent
