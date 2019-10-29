@@ -1,9 +1,9 @@
 # EDR_Tester
 This batch script file wants to check your EDR systems detection and response capabilities more noisy way!
-Please wait..until EDR testing script finish it's Jobs, than you should check your existing or future EDR log events!
+Please wait..until EDR testing script finish it's Jobs, then you should check your existing or future EDR log events!
 You can use this script when you are testing various EDR and NTA products!
 Please run this script administrator mode!
-Test your existing infrastructure than write correct detection & response rules. Send detected event logs SIEM and SOAR systems than take automated actions and hunt threats if any APT organization wants to steal your data and money. 
+Test your existing infrastructure than write correct detection & response rules. Send detected event logs SIEM and SOAR systems then take automated actions and hunt threats if any APT organization wants to steal your data and money. 
 I will add additional different kind of scripts on this repository, you can test your systems with this scripts.
 Some security products has blind points : )
 
