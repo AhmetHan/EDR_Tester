@@ -307,6 +307,8 @@ schtasks /delete /tn VVRsPMjDDQ.exe
 ECHO  ============================
 timeout 4
 ECHO ============================
+tasklist /m
+ECHO ============================
 ECHO %logonserver%
 ECHO ============================
 nltest /dclist:abc.local
