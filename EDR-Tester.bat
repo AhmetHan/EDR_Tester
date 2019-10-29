@@ -3,7 +3,7 @@
 TITLE EDR TESTER Runnig Now!
 ECHO Please wait..until EDR testing script finish its jobs, than you should check your existing or future EDR log events.
 ECHO You can use this script when you are testing various EDR and NTA products. 
-ECHO Please run this script administrator mode!
+ECHO Please run this script administrator mode and lab environments!
 ECHO ********************************
 ECHO *       EDR Tester v.01        *
 ECHO ********************************
