@@ -64,6 +64,10 @@ net stop windefend
 ECHO ============================
 net user admin test /add
 ECHO ============================
+net user admin /domain
+ECHO ============================
+net user admin /active:yes /domain
+ECHO ============================
 ver
 ECHO ============================
 assoc
