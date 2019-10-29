@@ -22,6 +22,8 @@ ECHO ============================
 ipconfig | findstr IPv4
 ipconfig | findstr IPv6
 ECHO ============================
+ipconfig | findstr /R /C:"IP.*"
+ECHO ============================
 net user Administrator /domain
 ECHO ============================
 net Accounts 
