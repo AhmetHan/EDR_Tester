@@ -140,6 +140,8 @@ wmic computersystem LIST full
 ECHO ============================
 cls
 ECHO ============================
+fsutil fsinfo drives
+ECHO ============================
 wmic /namespace:\\root\securitycenter2 path antivirusproduct
 ECHO ============================
 wmic path Win32_PnPdevice
