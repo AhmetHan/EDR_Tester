@@ -144,6 +144,8 @@ reg query HKLM /f password /t REG_SZ /s
 ECHO ============================
 fsutil fsinfo drives
 ECHO ============================
+tasklist /svc
+ECHO ============================
 wmic /namespace:\\root\securitycenter2 path antivirusproduct
 ECHO ============================
 wmic path Win32_PnPdevice
