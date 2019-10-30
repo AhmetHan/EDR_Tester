@@ -372,5 +372,7 @@ reg save HKLM\System system.hive
 ECHO ============================
 reg save HKLM\SAM sam.hive
 ECHO ============================
+ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
+ECHO ***************************************************
 PAUSE
