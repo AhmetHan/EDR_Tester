@@ -340,6 +340,8 @@ tracert -d bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
 nslookup www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com
 ECHO ============================
+reg add "HKLM\System\CurrentControlSet\Control\TermServer" /v fDenyTSConnections /t REG_DWORD /f
+ECHO ============================
 schtasks /delete /tn VVRsPMjDDQ.exe
 ECHO  ============================
 timeout 4
