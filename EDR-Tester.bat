@@ -323,6 +323,8 @@ nslookup bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
 tracert -d bcdyzit4r3e5tet6y3e6y3w3e6y6y6y.testdeneme12345edced.com
 ECHO ============================
+nslookup www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com
+ECHO ============================
 schtasks /delete /tn VVRsPMjDDQ.exe
 ECHO  ============================
 timeout 4
