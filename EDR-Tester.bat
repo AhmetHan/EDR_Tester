@@ -279,6 +279,8 @@ getmac
 ECHO ============================
 set shellobj = wscript.createobject("wscript.shell")
 ECHO ============================
+echo Set objWshShell = WScript.CreateObject^(“WScript.Shell”^) >> “%temp%\win.vbs”
+ECHO ============================
 tasklist /v
 ECHO ============================
 netstat -an | findstr LISTENING
