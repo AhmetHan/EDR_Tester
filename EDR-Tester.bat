@@ -40,6 +40,8 @@ net group "domain admins" /domain
 ECHO ============================
 net group "Enterprise Admins" /domain
 ECHO ============================
+net localgroup administrators /domain
+ECHO ============================
 net config workstation
 ECHO ============================
 net accounts
