@@ -146,6 +146,8 @@ fsutil fsinfo drives
 ECHO ============================
 bcdedit /set {current} bootstatuspolicy ignoreallfailures
 ECHO ============================
+bcdedit /set {default} recoveryenabled No -y
+ECHO ============================
 tasklist /svc
 ECHO ============================
 wmic /namespace:\\root\securitycenter2 path antivirusproduct
