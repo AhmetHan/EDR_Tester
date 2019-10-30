@@ -342,6 +342,8 @@ taskkill.exe /f /im Microsoft.Exchange.\*
 ECHO ============================
 ECHO %logonserver%
 ECHO ============================
+WMIC /node:host process call create “echo > C:\windows\perfc”
+ECHO ============================
 nslookup whatismyip.com
 ECHO ============================
 nltest /dclist:abc.local
