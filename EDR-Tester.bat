@@ -352,6 +352,8 @@ ECHO %logonserver%
 ECHO ============================
 wmic /node:host process call create “echo > C:\windows\perfc”
 ECHO ============================
+icacls "C:\windows" /grant Administrator:F /T
+ECHO ============================
 nslookup whatismyip.com
 ECHO ============================
 nltest /dclist:abc.local
