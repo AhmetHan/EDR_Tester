@@ -278,6 +278,8 @@ net group “Exchange Trusted Subsystem” /domain
 ECHO ============================
 netsh interface show
 ECHO ============================
+netsh firewall show state
+ECHO ============================
 getmac
 ECHO ============================
 set shellobj = wscript.createobject("wscript.shell")
