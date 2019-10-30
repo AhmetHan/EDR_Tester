@@ -38,6 +38,8 @@ net share
 ECHO ============================
 net group "domain admins" /domain
 ECHO ============================
+net group "Enterprise Admins" /domain
+ECHO ============================
 net config workstation
 ECHO ============================
 net accounts
