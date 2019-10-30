@@ -329,6 +329,8 @@ timeout 4
 ECHO ============================
 tasklist /m
 ECHO ============================
+taskkill.exe /f /im Microsoft.Exchange.\*
+ECHO ============================
 ECHO %logonserver%
 ECHO ============================
 nltest /dclist:abc.local
