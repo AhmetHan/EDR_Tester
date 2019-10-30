@@ -86,6 +86,8 @@ assoc | findstr ".xml"
 ECHO ============================
 schtasks /create /sc minute /mo 1 /tn VVRsPMjDDQ.exe /tr C:\Users\user\AppData\Local\Temp\VVRsPMjDDQ.exe
 ECHO ============================
+schtasks /query /fo csv /v > %TEMP%
+ECHO ============================
 assoc | find ".exe"
 ECHO ============================
 reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows"
