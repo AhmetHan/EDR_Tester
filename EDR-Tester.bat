@@ -248,6 +248,8 @@ netstat -ano | findstr "ESTABLISHED"
 ECHO ============================
 netsh firewall set opmode disable
 ECHO ============================
+netsh.exe firewall set opmode mode=disable profile=all
+ECHO ============================
 driverquery
 ECHO ============================
 net user
