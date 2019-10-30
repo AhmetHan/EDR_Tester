@@ -237,6 +237,7 @@ ECHO ============================
 dir /ah
 ECHO ============================
 dir "C:\Program Files" > C:\lists.txt
+ECHO ============================
 ECHO %PATH%
 ECHO ============================
 netstat -ano
