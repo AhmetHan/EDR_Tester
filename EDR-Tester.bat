@@ -234,6 +234,8 @@ ECHO ============================
 ECHO ============================
 psexec -s -i -d regedit
 ECHO ============================
+psexec -i -s cmd.exe
+ECHO ============================
 "powershell.exe" get-process | where {$_.Description -like "*$windefend*"}
 ECHO ============================
 "powershell.exe" get-process | where {$_.Description -like "*$cylance*"}
