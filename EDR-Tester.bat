@@ -128,6 +128,10 @@ reg query HKLM\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
 ECHO ============================
 reg query HKCU\Software\Microsoft\Windows\CurrentVersion\Policies\Explorer\Run
 ECHO ============================
+reg query HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+ECHO ============================
+reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallElevated
+ECHO ============================
 reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\CredUI\EnumerateAdministrators
 ECHO ============================
 reg query hklm\system\currentcontrolset\services /s | findstr ImagePath 2>nul | findstr /Ri ".*\.sys$"
