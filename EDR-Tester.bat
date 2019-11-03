@@ -144,6 +144,8 @@ REG ADD HKEY_CURRENT_USER\Console /v Test /d "Test Data"
 ECHO ============================
 REG QUERY HKEY_CURRENT_USER\Console /v Test
 ECHO ============================
+reg add HKLM\SYSTEM\CurrentControlSet\Contro\SecurityProviders\Wdigest /v UseLogonCredential /t Reg_DWORD /d 1
+ECHO ============================
 REG DELETE HKEY_CURRENT_USER\Console /v Test /f
 ECHO ============================
 REG QUERY HKEY_CURRENT_USER\Console /v Test
