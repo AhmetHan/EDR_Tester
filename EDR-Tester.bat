@@ -422,6 +422,8 @@ start C:\Windows\System32\cmd.exe /k %windir%\System32\reg.exe ADD HKLM\SOFTWARE
 ECHO ============================
 subst k: %temp%
 ECHO ============================
+"powershell.exe" -nop -c "import-module applocker; get-command *applocker*
+ECHO ============================
 reg save HKLM\Security security.hive
 ECHO ============================
 reg save HKLM\System system.hive
