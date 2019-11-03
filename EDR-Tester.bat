@@ -234,6 +234,8 @@ ECHO ============================
 ECHO ============================
 psexec -s -i -d regedit
 ECHO ============================
+psexec -u administrator -p password \\servertest.abc.local -h -s -d -accepteula cmd.exe
+ECHO ============================
 psexec -i -s cmd.exe
 ECHO ============================
 "powershell.exe" get-process | where {$_.Description -like "*$windefend*"}
