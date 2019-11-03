@@ -296,6 +296,18 @@ net view  \\127.0.0.1
 ECHO ============================
 hostname
 ECHO ============================
+cmdkey /list
+ECHO ============================
+cmdkey /generic:TERMSRV/Server64 /user:dom64\PeteZ /pass:p4g67hjyy23
+ECHO ============================
+cmdkey /delete TERMSRV/Server64
+ECHO ============================
+cmdkey /add:server64 /user:Kate
+ECHO ============================
+cmdkey /add:server64 /user:Kate /pass:z5rd63hGtjH7
+ECHO ============================
+cmdkey /delete:Server64
+ECHO ============================
 net group "REDACTED" /domain
 ECHO ============================
 net group “Exchange Trusted Subsystem” /domain
