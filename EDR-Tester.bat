@@ -258,6 +258,8 @@ dir /s
 ECHO ============================
 takeown /F test.bat
 ECHO ============================
+taskkill.exe /f /fi "imagename eq repmgr64.exe"
+ECHO ============================
 dir /ah
 ECHO ============================
 dir "C:\Program Files" > C:\lists.txt
