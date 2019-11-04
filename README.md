@@ -67,3 +67,5 @@ https://github.com/psychsecurity/Red-Team-Infrastructure
 https://www.carbonblack.com/cbfeeds/suspicious_feed.xhtml
 
 https://github.com/emilyanncr/Windows-Post-Exploitation#post-exploitation-techniques-and-commands
+
+https://www.puckiestyle.nl/windows-privilege-escalation/
