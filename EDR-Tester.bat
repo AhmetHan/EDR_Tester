@@ -206,6 +206,8 @@ query session
 ECHO ============================
 netsh advfirewall show allprofiles
 ECHO ============================
+netsh firewall show config
+ECHO ============================
 tasklist
 ECHO ============================
 systeminfo 
