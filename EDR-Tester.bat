@@ -412,6 +412,8 @@ nslookup www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com
 ECHO ============================
 reg add "HKLM\System\CurrentControlSet\Control\TermServer" /v fDenyTSConnections /t REG_DWORD /f
 ECHO ============================
+reg add "HKLM\SYSTEM\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
+ECHO ============================
 schtasks /delete /tn VVRsPMjDDQ.exe
 ECHO  ============================
 timeout 4
