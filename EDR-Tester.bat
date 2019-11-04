@@ -92,6 +92,8 @@ schtasks /query /fo csv /v > %TEMP%
 ECHO ============================
 assoc | find ".exe"
 ECHO ============================
+schtasks /query /fo LIST /v
+ECHO ============================
 reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows"
 ECHO ============================
 reg query HKLM\Software\Microsoft\Windows\CurrentVersion\RunServicesOnce
