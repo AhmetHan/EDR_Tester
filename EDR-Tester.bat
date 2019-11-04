@@ -44,9 +44,9 @@ net localgroup administrators /domain
 ECHO ============================
 net localgroup administrators joseph /add
 ECHO ============================
-net localgroup "Remote Desktop Users" jonhwick  /add
+net localgroup "Remote Desktop Users" johnwick  /add
 ECHO ============================
-net localgroup "Debugger users" jonhwick /add
+net localgroup "Debugger users" johnwick /add
 ECHO ============================
 net localgroup "Power users" jonhwick /add
 ECHO ============================
