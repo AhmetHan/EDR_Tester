@@ -212,6 +212,8 @@ wmic computersystem get "Model","Manufacturer", "Name", "UserName"
 ECHO ============================
 wmic shadowcopy delete -y
 ECHO ============================
+wmic UserAccount where Name='johnwick' set PasswordExpires=False
+ECHO ============================
 route print
 ECHO ============================
 query session
