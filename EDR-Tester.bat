@@ -140,6 +140,8 @@ reg query hklm\system\currentcontrolset\services /s | findstr ImagePath 2>nul | 
 ECHO ============================
 reg Query HKLM\Software\Microsoft\Windows\CurrentVersion\Run
 ECHO ============================
+reg query "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon"
+ECHO ============================
 REG ADD HKEY_CURRENT_USER\Console /v Test /d "Test Data"
 ECHO ============================
 REG QUERY HKEY_CURRENT_USER\Console /v Test
