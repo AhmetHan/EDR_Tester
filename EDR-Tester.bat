@@ -48,6 +48,8 @@ net localgroup "Remote Desktop Users" jonhwick  /add
 ECHO ============================
 net localgroup "Debugger users" jonhwick /add
 ECHO ============================
+net localgroup "Power users" jonhwick /add
+ECHO ============================
 net config workstation
 ECHO ============================
 net accounts
