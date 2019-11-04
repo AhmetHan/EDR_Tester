@@ -10,7 +10,7 @@ Some security products has blind points : )
 
 
 
-
+Note: Please change abc.local domain name your local domain.
 
 
 
