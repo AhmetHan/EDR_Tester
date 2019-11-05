@@ -62,6 +62,8 @@ net user
 ECHO ============================
 NET STOP Spooler
 ECHO ============================
+net.exe view igmp.mcast.net
+ECHO ============================
 net time
 ECHO ============================
 NET START Spooler
