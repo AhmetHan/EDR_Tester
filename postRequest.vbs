@@ -1,4 +1,5 @@
 ' Please check your proxy event logs for detecting vbs type of rat family write correct siem rules
+' user agent string field contains unique values and request url endswith .php or contains .php?
 'URL to open....
 sUrl = "http://www.testsite.com/page.php"
 'POST Request to send.
