@@ -471,6 +471,8 @@ runas.exe /netonly /user:abc\johnwick dsa.msc
 ECHO ============================
 start /b cmd /c dir /b /s \\nas\users_home_share$ ^> shareinfo.txt
 ECHO ============================
+dir \\abc.local\sysvol\*.xml /a-d /s
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
