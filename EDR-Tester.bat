@@ -467,6 +467,8 @@ reg save HKLM\SAM sam.hive
 ECHO ============================
 ren cmd.exe utilman.exe
 ECHO ============================
+wmic /node:localhost process call create “cmd.exe /c notepad”
+ECHO ============================
 runas.exe /netonly /user:abc\johnwick dsa.msc
 ECHO ============================
 start /b cmd /c dir /b /s \\nas\users_home_share$ ^> shareinfo.txt
