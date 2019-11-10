@@ -164,6 +164,8 @@ REG DELETE HKEY_CURRENT_USER\Console /v Test /f
 ECHO ============================
 REG QUERY HKEY_CURRENT_USER\Console /v Test
 ECHO ============================
+reg query hklm\system\currentcontrolset\control\lsa\ /v "Security Packages"
+ECHO ============================
 wmic computersystem LIST full
 ECHO ============================
 cls
