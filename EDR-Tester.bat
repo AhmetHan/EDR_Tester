@@ -493,6 +493,8 @@ gpresult /z
 ECHO ============================
 gpresult /H gpreport.html
 ECHO ============================
+wevtutil cl Setup & wevtutil cl System & wevtutil cl Security & wevtutil cl Application & fsutil usn deletejournal /D %c:
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
