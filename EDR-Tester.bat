@@ -50,6 +50,10 @@ net localgroup "Debugger users" johnwick /add
 ECHO ============================
 net localgroup "Power users" jonhwick /add
 ECHO ============================
+net group “Domain Controllers” /domain
+ECHO ============================
+net group “Domain Admins” /domain
+ECHO ============================
 net config workstation
 ECHO ============================
 net accounts
