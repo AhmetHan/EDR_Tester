@@ -10,7 +10,7 @@ Some security products has blind points : )
 
 
 
-Note: Please change all fields abc.local domain name your local domain name. 
+Note: Please change all fields abc.local domain name your local domain name.If you are testing real domain environment.
 
 
 
