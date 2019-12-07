@@ -320,6 +320,8 @@ ipconfig /all
 ECHO ============================
 whoami
 ECHO ============================
+whoami /groups
+ECHO ============================
 sc query state=all
 ECHO ============================
 ipconfig /all >> %temp%\download
