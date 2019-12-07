@@ -68,6 +68,8 @@ NET STOP Spooler
 ECHO ============================
 net.exe view igmp.mcast.net
 ECHO ============================
+net group "domain computers" /domain
+ECHO ============================
 net time
 ECHO ============================
 NET START Spooler
