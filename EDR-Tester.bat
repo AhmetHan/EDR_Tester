@@ -531,6 +531,8 @@ setspn -L servertest
 ECHO ============================
 setspn -L abc.local\johnwick
 ECHO ============================
+klist
+ECHO ============================
 ECHO | nslookup | findstr "Default\ Server"
 ECHO ============================
 setspn -T * -Q */* > Spnlist.txt
