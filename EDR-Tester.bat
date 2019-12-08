@@ -531,7 +531,7 @@ setspn -L servertest
 ECHO ============================
 setspn -L abc.local\johnwick
 ECHO ============================
-setspn -T * -Q */*
+setspn -T * -Q */* > Spnlist.txt
 ECHO ============================
 dir /b /ad "C:\Users\"
 ECHO ============================
