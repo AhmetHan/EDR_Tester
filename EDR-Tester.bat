@@ -537,6 +537,8 @@ ECHO | nslookup | findstr "Default\ Server"
 ECHO ============================
 setspn -T * -Q */* > Spnlist.txt
 ECHO ============================
+setspn -T abc.local -Q */* | findstr ":1433" > mssql.txt
+ECHO ============================
 dir /b /ad "C:\Users\"
 ECHO ============================
 ECHO ***************************************************
