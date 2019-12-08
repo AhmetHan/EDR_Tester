@@ -1,5 +1,5 @@
 @ECHO OFF 
-:: This batch file wants to check your EDR systems detection and response capabilities more noisy way!
+:: This batch file wants to check your EDR systems detection and response capabilities in a more noisy way!
 TITLE EDR TESTER Runnig Now!!!!!
 ECHO Please wait..until EDR testing script finish its jobs, then you should check your EDR log events.
 ECHO You can use this script when you are testing various EDR and NTA products. 
