@@ -535,6 +535,8 @@ setspn -L abc.local\johnwick
 ECHO ============================
 tasklist  /FO csv /svc
 ECHO ============================
+gpscript.exe /Logon
+ECHO ============================
 klist
 ECHO ============================
 cmd.exe powershell Set-MpPreference -DisableRealtimeMonitoring $true
