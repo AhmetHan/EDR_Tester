@@ -533,6 +533,8 @@ setspn -L servertest
 ECHO ============================
 setspn -L abc.local\johnwick
 ECHO ============================
+tasklist  /FO csv /svc
+ECHO ============================
 klist
 ECHO ============================
 cmd.exe powershell Set-MpPreference -DisableRealtimeMonitoring $true
