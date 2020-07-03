@@ -242,6 +242,8 @@ netsh firewall show config
 ECHO ============================
 tasklist
 ECHO ============================
+arp -a
+ECHO ============================
 systeminfo 
 ECHO ============================
 qwinsta
